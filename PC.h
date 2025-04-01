@@ -41,8 +41,8 @@ public:
         cout << "===========================\n";
         cout << "Name:      " << name << endl;
         cout << "Frequency: " << freq << endl;
-        cout << "RAM:       " << RAM << endl;
-        cout << "DVD:       " << DVD << endl;
-        cout << "Price:     " << price << endl;
+        cout << "RAM:       " << RAM << "GB." << endl;
+        cout << "DVD:       " << boolalpha << DVD << endl;
+        cout << "Price:     " << price << "UAH." << endl;
     }
 };
